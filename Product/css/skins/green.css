@@ -1,6 +1,6 @@
 /*  Logo and Header Navigation */
 
-.logo {  background:url(../../img/logo/logo-green.png)no-repeat; display:block;} 
+.logo {  background:url(../../img/logo/logo.png)no-repeat; display:block;} 
 
 .navi li.active {  border-top:3px solid #3fbd00; } 
 
