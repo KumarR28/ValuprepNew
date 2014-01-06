@@ -83,19 +83,19 @@ h2 { font-size:16px; text-align:center;  font-weight:500;}
 /*----------------------------------------------------*/
 /* 4. Header Styles */
 /*----------------------------------------------------*/
-
 header { background:url("../img/bg.png") repeat-x;  position: relative; z-index:5; height:76px; display:block;   }
 
 /* NOTE : To edit Logo css , go to Skins/Blue.css  */
-.logo { float:left; margin:22px 0 0; width:146px; height:28px;  display:block;} 
+.logo { float:left; margin:22px 0 0 0; width:132px; height:28px;  display:block;} 
 
-.navi { float:right; width:240px;  }
-.navi li { float:left; width:80px; border-top:3px solid #fff; } 
-.navi li:hover { float:left; width:80px; border-top:3px solid #eaeaea; } 
-.navi li a { float:left; width:80px; padding:30px 0; color:#868889; text-align:center;}
+.navi { float:right; width:420px;  }
+.navi li { float:left; width:70px; border-top:3px solid #fff; } 
+.navi li:hover { float:left; width:70px; border-top:3px solid #eaeaea; } 
+.navi li a { float:left; width:70px; padding:30px 1px; color:#868889; text-align:center;}
 
 li.active { background:rgba(213,213,213,0.25);  } 
 li.active a { color:#1b1d1e; }
+
 
 /*----------------------------------------------------*/
 /* 5. Main Section */
