@@ -1,6 +1,6 @@
 /*  Logo and Header Navigation */
 
-.logo {  background:url(../../img/logo/logo.png)no-repeat; display:block;} 
+.logo {  background:url(../../img/logo/logo3.png)no-repeat; display:block;} 
 
 .navi li.active {  border-top:3px solid #3fbd00; } 
 
@@ -27,12 +27,12 @@ input.button-newsletter  {  background: url(../../img/buttons/arrow-green.png) n
 
 /*  Testimonials Hover */
 
-.quote img.quote-hover { color:#fff;  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1); background: none repeat scroll 0 0 #3fbd00;}
+.quote img.quote-hover { color:#fff;  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1); background: none repeat scroll 0 0 #ffffff;}
 
 /*  Action */
 
 .action { background:url(../../img/gradient.png) top no-repeat #3fbd00;    }
-.action h3 {   background: url(../../img/icons/action-green.png) no-repeat scroll 0px 0px  ; }
+.action h3 {   background: url(../../img/icons/check-green-big.png) no-repeat scroll 0px 0px  ; }
 
 .action-button { background: url(../../img/buttons/arrow-green.png) no-repeat scroll 110px 11px #fafafa  ; }
 input.input-submit  { background-color:#3fbd00; }

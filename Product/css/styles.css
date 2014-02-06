@@ -86,7 +86,7 @@ h2 { font-size:16px; text-align:center;  font-weight:500;}
 header { background:url("../img/bg.png") repeat-x;  position: relative; z-index:5; height:76px; display:block;   }
 
 /* NOTE : To edit Logo css , go to Skins/Blue.css  */
-.logo { float:left; margin:22px 0 0 0; width:132px; height:28px;  display:block;} 
+.logo { float:left; margin:10px 0 0 0; width:222px; height:55px;  display:block;} 
 
 .navi { float:right; width:420px;  }
 .navi li { float:left; width:70px; border-top:3px solid #fff; } 
@@ -237,11 +237,16 @@ img.b {	position: absolute;	left: 0; top: 0; z-index: 12; border:0px solid #cccc
 /* 10.  Action */
 /*----------------------------------------------------*/
 
+/*.action {   height:70px; padding: 45px 0 50px; box-shadow:0px 1px 1px rgba(0,0,0,0.2) inset; background-size: 100% 100%;}
+.action h3 { float:left; padding:21px 0 0 85px; height:54px; font-size:25px;  font-weight:400; color:#fff; text-shadow : 1px 1px 1px rgba(0,0,0,0.2);}
+.action h3 span { font-weight:600;}*/
+
 .action {   height:70px; padding: 45px 0 50px; box-shadow:0px 1px 1px rgba(0,0,0,0.2) inset; background-size: 100% 100%;}
-.action h3 { float:left; padding:21px 0 0 85px; height:44px; font-size:25px;  font-weight:400; color:#fff; text-shadow : 1px 1px 1px rgba(0,0,0,0.2);}
+.action h3 { float:left; padding:21px 0 0 85px; height:54px; font-size:25px;  font-weight:400; color:#fff; text-shadow : 1px 1px 1px rgba(0,0,0,0.2);}
 .action h3 span { font-weight:600;}
 
-.action-button { display:block;    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 1px 1px rgba(255, 255, 255, 0.15) inset, 0 -1px 1px rgba(255, 255, 255, 0.15) inset, 0 1px 2px rgba(0, 0, 0, 0.2); float:right; width:80px; padding:0px 30px;   color:#47494a;    border-radius:20px; height:40px; line-height:38px; vertical-align:middle; margin:15px 0 0;  color:#47494a;   }
+.action-button { display:block;    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 1px 1px rgba(255, 255, 255, 0.15) inset, 0 -1px 1px rgba(255, 255, 255, 0.15) inset, 0 1px 2px rgba(0, 0, 0, 0.2); float:right; width:120px; padding:0px 15px;   color:#47494a;    border-radius:20px; height:40px; line-height:38px; vertical-align:middle; margin:15px 0 0;  color:#47494a;   }
+
 
 /*----------------------------------------------------*/
 /* 11.  Footer */
@@ -249,7 +254,7 @@ img.b {	position: absolute;	left: 0; top: 0; z-index: 12; border:0px solid #cccc
 
 footer { background:url("../img/body.png")repeat ;  position: relative; z-index:5; height:76px; display:block; box-shadow:0px -1px 1px rgba(0,0,0,0.2); }
 
-.copy { width:300px; float:left; margin:34px 0 0 ; font-size:14px; color:#7b8285; }
+.copy { width:400px; float:left; margin:34px 0 0 ; font-size:14px; color:#7b8285; }
 .copy p strong { font-weight:700; color:#3e4446; }
 
 .social { float:right; margin:22px 0 0; }
@@ -265,6 +270,11 @@ li.facebook a:hover {  opacity:1; -ms-filter: "progid:DXImageTransform.Microsoft
 li.twitter a { background:url("../img/twitter.png") no-repeat; width:37px; height:37px; display:block; opacity:0.4;  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";  }
 li.twitter a:hover {  opacity:1; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; }
 
+li.linkedin a { background:url("../img/linkedin.png") no-repeat; width:37px; height:37px; display:block; opacity:0.4;  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";  }
+li.linkedin a:hover {  opacity:1; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; }
+
+li.yelp a { background:url("../img/yelp.png") no-repeat; width:37px; height:37px; display:block; opacity:0.4;  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";  }
+li.yelp a:hover {  opacity:1; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; }
 
 .facebook-com { padding:60px 10px 20px; width:100%; margin:0 auto; }
 .fb_iframe_widget { width:100%; }
@@ -374,21 +384,4 @@ footer { height:105px; }
 .about p { font-size:14px; text-align:center!important;  }
 .about { padding:0 0 10px!important; }
  }
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
  
